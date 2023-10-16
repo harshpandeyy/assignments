@@ -1,0 +1,90 @@
+.val-card-container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    108deg,
+    rgba(1, 147, 86, 1) 0%,
+    rgba(10, 201, 122, 1) 100%
+  );
+}
+
+.card-small-container {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  height: 400px;
+  width: 350px;
+}
+
+.val-text {
+  color: #fff;
+  margin-left: 26px;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.val-pass-text {
+  color: #fff;
+  margin-left: 26px;
+  margin-bottom: 6px;
+  margin-top:1.5rem;
+  font-size: 14px;
+}
+
+.val-sign-text {
+  display: flex;
+  align-self: center;
+  color: #fff;
+  font-size: 22px;
+  margin-top: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+.val-email-input {
+  height: 40px;
+  width: 300px;
+  display: flex;
+  align-self: center;
+  padding: 4px;
+}
+
+.val-pass-input {
+  height: 40px;
+  width: 300px;
+  display: flex;
+  align-self: center;
+  padding: 4px;
+}
+
+.val-submit {
+  height: 40px;
+  width: 300px;
+  display: flex;
+  align-self: center;
+  padding: 4px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  background: linear-gradient(
+    108deg,
+    rgba(1, 147, 86, 1) 0%,
+    rgba(10, 201, 122, 1) 100%
+  );
+  font-size: 16px;
+}
+
+.mail-warning {
+  color: #c70039;
+  margin-top:4px;
+  font-size: 13px;
+  margin-left: 1.5rem;
+}
+
+.pass-warning {
+  color: #c70039;
+  margin-top: 4px;
+  font-size: 13px;
+  margin-left: 1.5rem;
+}

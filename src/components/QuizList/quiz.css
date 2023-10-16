@@ -1,0 +1,100 @@
+.quiz-container {
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  flex-direction: column;
+  justify-items: center;
+  height: 100vh;
+}
+
+.option-box {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  width: 400px;
+  border: 0.2px solid rgb(193, 187, 187);
+  padding: 6px;
+  background-color: rgb(228, 237, 246);
+  border-radius: 6px;
+}
+
+.active-option-box {
+  display: flex;
+  min-width: 400px;
+  border: 0.2px solid rgb(193, 187, 187);
+  padding: 6px;
+  background-color: yellowgreen;
+  border-radius: 6px;
+}
+
+.quiz-options {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 1rem;
+  padding: 2rem;
+}
+
+.quiz-question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 18rem;
+}
+
+.question {
+  font-size: 25px;
+}
+
+.question-number {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.previous-button {
+  border: none;
+  padding-inline: 35px;
+  background-color: gold;
+  padding-block: 14px;
+  font-weight: bold;
+  background-color: lightgray;
+}
+
+.submit-button {
+  border: none;
+  padding-inline: 35px;
+  padding-block: 14px;
+  font-weight: bold;
+  background-color: lightgray;
+}
+
+.next-button {
+  border: none;
+  padding-inline: 35px;
+  padding-block: 14px;
+  font-weight: bold;
+  background-color: lightgray;
+}
+
+.buttons-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.check-box {
+  margin-right: 1rem;
+}
+
+.red-heading {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  padding: 8px;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}

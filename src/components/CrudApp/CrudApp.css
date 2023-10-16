@@ -1,0 +1,96 @@
+.crud-container {
+  display: flex;
+  background-color: aliceblue;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.heading {
+  justify-content: center;
+  width: 100%;
+  display: flex;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+/* .appendContainer {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 10rem;
+} */
+
+.crudBody {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 50vh;
+}
+
+.crudInput {
+  height: 50px;
+  width: 400px;
+  border: 1px solid lightgray;
+  padding: 4px;
+  font-size: 16px;
+  margin-bottom: 2rem;
+}
+
+.crudButton {
+  border: none;
+  padding-inline: 40px;
+  padding-block: 14px;
+  font-weight: bold;
+  background-color: #FF0063;
+}
+
+.crudTextBoxContainer {
+  width: 100%;
+  display: flex;
+  margin-top: 8rem;
+  align-items: center;
+  flex-direction: column;
+}
+
+.crudTextBox {
+  display: flex;
+  height: 150px;
+  width: 400px;
+  border: 1px solid lightgrey;
+  padding: 6px;
+  background-color: #fff;
+  flex-direction: column;
+  overflow: scroll;
+}
+
+.deleteButton {
+  border: none;
+  padding-inline: 40px;
+  padding-block: 14px;
+  font-weight: bold;
+  background-color: rgb(190, 60, 60);
+  margin-top: 2rem;
+}
+
+.updateButton {
+  border: none;
+  padding-inline: 40px;
+  padding-block: 14px;
+  font-weight: bold;
+  background-color: lightblue;
+  margin-top: 2rem;
+}
+
+.crud-buttons {
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+}

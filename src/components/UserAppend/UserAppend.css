@@ -1,0 +1,43 @@
+.appendContainer {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: 10rem;
+}
+
+.appendBody {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.appendInput {
+  height: 50px;
+  width: 400px;
+  border: 1px solid lightgray;
+  padding: 4px;
+  font-size: 16px;
+  margin-bottom: 2rem;
+}
+
+.appendButton{
+border:none;
+padding-inline:40px;
+padding-block: 14px;
+font-weight: bold;
+}
+
+.appendTextBox{
+    display:flex;
+    height:200px;
+    width:400px;
+    margin-bottom: 4rem;
+    border:1px solid lightgrey;
+    padding:6px;
+    background-color: aliceblue;
+}

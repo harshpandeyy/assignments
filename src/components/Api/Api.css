@@ -1,0 +1,31 @@
+.api-container {
+  display: flex;
+  background-color: #F1EFEF;
+  height: 100vh;
+  flex-direction: column;
+  padding:1rem;
+}
+
+.api-button {
+  margin-top: 2rem;
+  padding-inline: 100px;
+  padding-block: 15px;
+  border-radius: 15px;
+  color:#fff;
+  border-width: 1px;
+  background-color: #004225;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.data-container{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 8px;
+
+}
+
+.data-con{
+display:flex;
+justify-content: space-around;
+}

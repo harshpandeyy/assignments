@@ -1,0 +1,24 @@
+.red-option-box {
+    display: flex;
+    height: 50px;
+    align-items: center;
+    width: 400px;
+    border: 0.2px solid rgb(193, 187, 187);
+    padding: 6px;
+    background-color: rgb(228, 237, 246);
+    border-radius: 6px;
+    justify-content: center;
+}
+
+.red-active-option-box {
+    display: flex;
+    background-color:greenyellow;
+    height: 50px;
+    align-items: center;
+    width: 400px;
+    border: 0.2px solid rgb(193, 187, 187);
+    padding: 6px;
+    border-radius: 6px;
+    justify-content: center;
+}
+
